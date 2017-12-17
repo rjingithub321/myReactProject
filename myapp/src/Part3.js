@@ -1,4 +1,3 @@
-import React from 'react';
 import Paper from 'material-ui/Paper';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
@@ -13,11 +12,11 @@ const style2 = {
   marginBottom: 20,
   marginLeft: 20,
   textAlign: 'center',
-  display: 'inline-block',
+
 };
 
 const PaperExampleSimple2 = () => (
-  <div>
+  <div  style={{float:'left'}}>
     <Paper style={style2} zDepth={2} >
      <div>
       <a href="" style={{marginRight: 10}}><br/><Avatar src="https://cdn.pixabay.com/photo/2016/06/13/13/46/shark-1454245_960_720.png"/></a>
