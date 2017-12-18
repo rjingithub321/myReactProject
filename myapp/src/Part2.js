@@ -32,21 +32,21 @@ const PaperExampleSimple1 = () => (
   <div style={{float:'left'}}>
     <Paper style={style1} zDepth={2}>
      <a href=""><br/><Avatar size={55} src="https://cdn.pixabay.com/photo/2016/06/13/13/46/shark-1454245_960_720.png"/></a>
-     <span style={{fontSize:20}}><strong><br/>Radhika Jayaraj</strong><br/>@radhika_jayaraj</span><hr/>
+     <span style={{fontSize:20}}><strong><br/>Radhika Jayaraj</strong></span><br/>@radhika_jayaraj<hr/>
      Tweets<br/>0
     </Paper>
 
     <Paper style={style4} zDepth={2}>
-      <br/><span style={{fontSize:20}}><strong>Trends for you.</strong></span><a href=""><span style={{fontSize:14}}> Change</span></a><br/><br/>
-      <a href="" ><span style={newstyle}>#Gulebagavali</span></a><br/><br/>
-      <a href=""><span style={newstyle}>#GujaratElection2017</span></a><br/>
+      <br/><strong style={{fontSize:20}}>Trends for you.</strong><a href="" style={{fontSize:14}}> Change</a><br/><br/>
+      <a href="" style={newstyle}>#Gulebagavali</a><br/><br/>
+      <a href="" style={newstyle}>#GujaratElection2017</a><br/>
       <span style={newstyle}>13.8K Tweets</span><br/><br/>
-      <a href=""><span style={newstyle}>#MCAonDec21st</span></a><br/>
+      <a href="" style={newstyle}>#MCAonDec21st</a><br/>
       <span style={newstyle}>9,246 Tweets</span><br/><br/>
-      <a href=""><span style={newstyle}>#SekarReddy</span></a><br/><br/>
-      <a href=""><span style={newstyle}>#INDvARG</span></a><br/><br/>
-      <a href=""><span style={newstyle}>#WeekendMachan</span></a><br/><br/>
-      <a href=""><span style={newstyle}>#MaxHospital</span></a><br/>
+      <a href="" style={newstyle}>#SekarReddy</a><br/><br/>
+      <a href="" style={newstyle}>#INDvARG</a><br/><br/>
+      <a href="" style={newstyle}>#WeekendMachan</a><br/><br/>
+      <a href="" style={newstyle}>#MaxHospital</a><br/>
       <span style={newstyle}>9,963 Tweets</span><br/><br/>
    </Paper>
   </div>
