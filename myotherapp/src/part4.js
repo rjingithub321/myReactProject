@@ -62,7 +62,7 @@ const PaperExampleSimple2 = () => (
     </Paper>
     
     <Paper style={styling3} zDepth={2} >
-     <h2>Who to follow</h2>
+     <br/><strong style={{fontSize:25}}>Who to follow</strong><a href="" style={{fontSize:14}}>. Refresh</a><a href="" style={{fontSize:14}}>. View all</a><br/><br/>
      <div style={{padding: 10}}>
      <div style={{float: 'left'}}><a href=""><br/><Avatar src="https://cdn.pixabay.com/photo/2016/03/26/06/05/cat-1280122_960_720.jpg"/></a></div>
      <div><a href="" style={{fontSize:15}}>Mr.Awesome </a><span style={{fontSize:15}}>@mr_awesome</span><br/><RaisedButton label="Follow" primary={true} buttonStyle={{ borderRadius: 25 }}
@@ -79,39 +79,39 @@ const PaperExampleSimple2 = () => (
      </Paper>
     
     <Paper style={styling4} zDepth={2} >
-      <br/><span style={{fontSize:20}}><strong>Trends for you.</strong></span><a href=""><span style={{fontSize:14}}> Change</span></a><br/><br/>
-      <a href=""><span style={newstyling1}>#Gulebagavali</span></a><br/><br/>
-      <a href=""><span style={newstyling1}>#GujaratElection2017</span></a><br/>
+      <br/><strong style={{fontSize: 20}}>Trends for you.</strong><a href="" style={{fontSize: 14}}> Change</a><br/><br/>
+      <a href="" style={newstyling1}>#Gulebagavali</a><br/><br/>
+      <a href="" style={newstyling1}>#GujaratElection2017</a><br/>
       <span style={newstyling1}>13.8K Tweets</span><br/><br/>
-      <a href=""><span style={newstyling1}>#MCAonDec21st</span></a><br/>
+      <a href="" style={newstyling1}>#MCAonDec21st</a><br/>
       <span style={newstyling1}>9,246 Tweets</span><br/><br/>
-      <a href=""><span style={newstyling1}>#SekarReddy</span></a><br/><br/>
-      <a href=""><span style={newstyling1}>#INDvARG</span></a><br/><br/>
-      <a href=""><span style={newstyling1}>#WeekendMachan</span></a><br/><br/>
-      <a href=""><span style={newstyling1}>#MaxHospital</span></a><br/>
+      <a href="" style={newstyling1}>#SekarReddy</a><br/><br/>
+      <a href="" style={newstyling1}>#INDvARG</a><br/><br/>
+      <a href="" style={newstyling1}>#WeekendMachan</a><br/><br/>
+      <a href="" style={newstyling1}>#MaxHospital</a><br/>
       <span style={newstyling1}>9,963 Tweets</span><br/><br/>
     </Paper>
     
     <Paper style={styling5} zDepth={2}>
     <br/>
      <span style={newstyle2}>© 2017 Twitter</span> 
-     <a href=""><span style={newstyle2}> About </span></a>
-     <a href=""><span style={newstyle2}>Help </span></a>
-     <a href=""><span style={newstyle2}>Center </span></a>
-     <a href=""><span style={newstyle2}>Terms </span></a>
-     <a href=""><span style={newstyle2}>Privacy policy </span></a>
-     <a href=""><span style={newstyle2}>Cookies </span></a>
-     <a href=""><span style={newstyle2}>Ads info </span></a>
-     <a href=""><span style={newstyle2}>Brand</span> </a>
-     <a href=""><span style={newstyle2}>Blog </span></a>
-     <a href=""><span style={newstyle2}>Status</span> </a>
-     <a href=""><span style={newstyle2}>Apps </span></a>
-     <a href=""><span style={newstyle2}>Jobs </span></a>
-     <a href=""><span style={newstyle2}>Marketing </span></a>
-     <a href=""><span style={newstyle2}>Business </span></a>
-     <a href=""><span style={newstyle2}>Developers </span></a>
+     <a href="" style={newstyle2}>About </a>
+     <a href="" style={newstyle2}>Help </a>
+     <a href="" style={newstyle2}>Center </a>
+     <a href="" style={newstyle2}>Terms </a>
+     <a href="" style={newstyle2}>Privacy policy </a>
+     <a href="" style={newstyle2}>Cookies </a>
+     <a href="" style={newstyle2}>Ads info </a>
+     <a href="" style={newstyle2}>Brand </a>
+     <a href="" style={newstyle2}>Blog </a>
+     <a href="" style={newstyle2}>Status </a>
+     <a href="" style={newstyle2}>Apps </a>
+     <a href="" style={newstyle2}>Jobs </a>
+     <a href="" style={newstyle2}>Marketing </a>
+     <a href="" style={newstyle2}>Business </a>
+     <a href="" style={newstyle2}>Developers </a>
      <br/><hr/>
-     <a href=""><span style={newstyle2}>Advertise with Twitter </span></a>
+     <a href="" style={newstyle2}>Advertise with Twitter </a>
     </Paper>
   </div>
 );
