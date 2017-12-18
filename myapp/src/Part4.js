@@ -27,7 +27,7 @@ const newstyle1={
 const PaperExampleSimple3 = () => (
   <div  style={{float:'left'}}>
     <Paper style={style3} zDepth={2} >
-     <br/><strong style={{fontSize:25}}>Who to follow</strong><a href="" style={{fontSize:14}}>. Refresh</a><a href="" style={{fontSize:14}}>. View all</a><br/>
+     <br/><strong style={{fontSize:25}}>Who to follow</strong><a href="" style={{fontSize:14}}>. Refresh</a><a href="" style={{fontSize:14}}>. View all</a><br/><br/>
      <div style={{padding: 10}}>
       <div style={{float: 'left'}}><a href=""><br/><Avatar src="https://cdn.pixabay.com/photo/2016/03/26/06/05/cat-1280122_960_720.jpg"/></a></div>
       <div><a href="">Mr.Awesome </a>@mr_awesome<br/><RaisedButton label="Follow" primary={true} buttonStyle={{ borderRadius: 25 }}
@@ -46,23 +46,23 @@ const PaperExampleSimple3 = () => (
     <Paper style={style5} zDepth={2}>
     <br/>
      <span style={newstyle1}>© 2017 Twitter</span> 
-     <a href=""><span style={newstyle1}> About </span></a>
-     <a href=""><span style={newstyle1}>Help </span></a>
-     <a href=""><span style={newstyle1}>Center </span></a>
-     <a href=""><span style={newstyle1}>Terms </span></a>
-     <a href=""><span style={newstyle1}>Privacy policy </span></a>
-     <a href=""><span style={newstyle1}>Cookies </span></a>
-     <a href=""><span style={newstyle1}>Ads info </span></a>
-     <a href=""><span style={newstyle1}>Brand</span> </a>
-     <a href=""><span style={newstyle1}>Blog </span></a>
-     <a href=""><span style={newstyle1}>Status</span> </a>
-     <a href=""><span style={newstyle1}>Apps </span></a>
-     <a href=""><span style={newstyle1}>Jobs </span></a>
-     <a href=""><span style={newstyle1}>Marketing </span></a>
-     <a href=""><span style={newstyle1}>Business </span></a>
-     <a href=""><span style={newstyle1}>Developers </span></a>
+     <a href="" style={newstyle1}> About </a>
+     <a href="" style={newstyle1}>Help </a>
+     <a href="" style={newstyle1}>Center </a>
+     <a href="" style={newstyle1}>Terms </a>
+     <a href="" style={newstyle1}>Privacy policy </a>
+     <a href="" style={newstyle1}>Cookies </a>
+     <a href="" style={newstyle1}>Ads info </a>
+     <a href="" style={newstyle1}>Brand </a>
+     <a href="" style={newstyle1}>Blog </a>
+     <a href="" style={newstyle1}>Status </a>
+     <a href="" style={newstyle1}>Apps </a>
+     <a href="" style={newstyle1}>Jobs </a>
+     <a href="" style={newstyle1}>Marketing </a>
+     <a href="" style={newstyle1}>Business </a>
+     <a href="" style={newstyle1}>Developers </a>
      <br/><hr/>
-     <a href=""><span style={newstyle1}>Advertise with Twitter </span></a>
+     <a href="" style={newstyle1}>Advertise with Twitter </a>
   </Paper>
   </div>
 );
