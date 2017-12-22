@@ -6,8 +6,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import ActionHome from 'material-ui/svg-icons/action/home';
 import SocialNotifications from 'material-ui/svg-icons/social/notifications';
 import ContentMail from 'material-ui/svg-icons/content/mail';
-import SocialMood from 'material-ui/svg-icons/social/mood';
-
+import FontIcon from 'material-ui/FontIcon';
 
 const style = {
   margin: 'auto'
@@ -28,8 +27,8 @@ const TabsExampleIconText1 = () => (
       label="Messages"
     />
     <Tab
-      icon={<SocialMood/>}
-      />
+      icon={<FontIcon className="fa fa-twitter"/>}
+    />
     <TextField
       hintText="Search Twitter" id="text-field-default" style={style} hintStyle={{color: 'white'}}
     />
