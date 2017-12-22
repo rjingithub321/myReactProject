@@ -24,7 +24,7 @@ const CardExampleWithAvatar = () => (
     <CardHeader
       title="beebom"
       subtitle="@beebomco .Dec 6"
-      avatar="https://pbs.twimg.com/profile_images/522662074216755202/cbbGMYg5_bigger.jpeg"/>
+      avatar="https://pbs.twimg.com/profile_images/943739956551282689/TUMOrTBk_400x400.jpg"/>
     </a>
     <a href="" class="tweet">
     <CardMedia>
@@ -76,7 +76,7 @@ const CardExampleWithAvatar = () => (
     </a>
     <a href="" class="tweet">
     <CardMedia>
-      <img src="https://pbs.twimg.com/card_img/939334438944571393/YfwA3z5Z?format=jpg&name=800x419" alt="" />
+      <img src="https://pbs.twimg.com/card_img/941871176703340544/_cc4WySR?format=jpg&name=800x419" alt="" />
     </CardMedia>
     <CardText>
       <a href="">#Aadhaar</a> disruption: In Jharkhand’s poorest regions, hundreds of people are being routinely denied the <a href="">#RightToFood </a>
