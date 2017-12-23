@@ -30,7 +30,7 @@ const CardExampleWithAvatar = () => (
     <CardMedia>
       <img src="https://pbs.twimg.com/media/DQWhXm5UEAAGphl.jpg" alt="" />
     </CardMedia>
-    <CardText>
+    <CardText class="cardtext">
       65-year-old Sajidha Begum has lost her sight and fingers, and she has no way of submitting the necessary fingerprints and iris scans. 
       In August, however, the Indian government sent a letter to her saying her pension was being taken away unless it was linked to an Aadhaar card. 
     </CardText>
@@ -53,7 +53,7 @@ const CardExampleWithAvatar = () => (
       avatar="https://pbs.twimg.com/profile_images/665758017443397632/E5JfhqMw_bigger.jpg"/>
     </a>
     <a href="" class="tweet">
-    <CardText>
+    <CardText class="cardtext">
       Idea for numerologists, for a new paid service: Inspecting the Aadhaar numbers of bride and groom to see how much it matches. 
     </CardText>
     </a>
@@ -78,7 +78,7 @@ const CardExampleWithAvatar = () => (
     <CardMedia>
       <img src="https://pbs.twimg.com/card_img/941871176703340544/_cc4WySR?format=jpg&name=800x419" alt="" />
     </CardMedia>
-    <CardText>
+    <CardText class="cardtext">
       <a href="">#Aadhaar</a> disruption: In Jharkhand’s poorest regions, hundreds of people are being routinely denied the <a href="">#RightToFood </a>
       because beneficiaries have failed to enrol or get it linked with their ration cards or network & authentication failed at fair price shops. 
     </CardText>
@@ -101,7 +101,7 @@ const CardExampleWithAvatar = () => (
       avatar="https://pbs.twimg.com/profile_images/927960215378649088/ec2edQil_bigger.jpg"/>
     </a>
     <a href="" class="tweet">  
-    <CardText>
+    <CardText class="cardtext">
       Finally. Good news from <a href="">@UIDAI </a> 
       If your Aadhaar Card is not linked with your marriage certificate before 31st December 2017, you will be considered single from 1st Jan 2018.
     </CardText>
